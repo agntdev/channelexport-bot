@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/export_status",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show historical export progress and ETA"
+            }
+          }
+        ],
+        "send": {
+          "text": "/export_status"
+        }
+      }
+    ]
+  }
+]
